@@ -1,4 +1,6 @@
-Script install kubernetes on centos 8
+## Script install kubernetes on centos 8
 
-> minikube start --force --driver=docker
-> minikube dashboard
+Run minikube
+```bash
+minikube start --force --driver=docker
+```
