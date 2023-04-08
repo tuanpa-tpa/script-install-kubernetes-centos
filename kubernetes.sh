@@ -29,23 +29,6 @@ echo -e "${GREEN} Install docker ${NC}"
 sudo yum install -y docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin 
 
 
-#
-#echo -e "${GREEN} Download docker ${NC}"
-#sudo dnf install https://download.docker.com/linux/centos/7/x86_64/stable/Packages/containerd.io-1.2.6-3.3.el7.x86_64.rpm 
-#
-#echo -e "${GREEN} install docker ${NC}"
-#sudo dnf install -y docker-ce -y
-#
-#echo -e "${GREEN} Reload services ${NC}"
-#sudo systemctl daemon-reload
-#
-#echo -e "${GREEN} Enable the docker service ${NC}"
-#sudo systemctl enable docker
-#
-#echo -e "${GREEN} Start the docker service ${NC}"
-#sudo systemctl start docker
-
-
 echo -e "${GREEN}############################################################################${NC}"
 echo -e "${GREEN}#     Download & install kubectl    #${NC}"
 echo -e "${GREEN}############################################################################${NC}"
